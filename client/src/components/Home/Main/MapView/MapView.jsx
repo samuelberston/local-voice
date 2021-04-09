@@ -122,7 +122,7 @@ class MapView extends React.Component {
         style={infoWindowStyles}
       >
         <div>
-          Info Window
+          {/* Info Window */}
           <h4>
             {this.state.selectedIssue.title}
           </h4>
@@ -130,7 +130,7 @@ class MapView extends React.Component {
             {this.state.selectedIssue.text}
           </h4>
           <img src={this.state.selectedIssue.url} alt="" />
-          <MapIssueModal issue={this.state.selectedIssue} />
+          {/* <MapIssueModal issue={this.state.selectedIssue} /> */}
         </div>
       </InfoWindow>
     );
